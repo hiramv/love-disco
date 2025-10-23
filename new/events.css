@@ -1,0 +1,658 @@
+.the-events {
+  	width: 100%;
+  	height: 4553px;
+  	position: relative;
+  	overflow: hidden;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	text-align: center;
+  	font-size: 36px;
+  	color: #b9976f;
+  	font-family: 'Inria Serif';
+}
+.copia-de-agent-patrick-3-1 {
+  	position: absolute;
+  	top: 4564.28px;
+  	left: 1429.31px;
+  	background: linear-gradient(180deg, #e7b68f, rgba(255, 255, 255, 0));
+  	width: 1426.3px;
+  	height: 725.1px;
+  	transform:  rotate(-180deg);
+  	transform-origin: 0 0;
+  	opacity: 0.5;
+}
+.header-bckgr {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 715px);
+  	width: 1428px;
+  	height: 1122px;
+}
+.header-bckgr-child {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 712px);
+  	background: radial-gradient(50% 50% at 50% 50%, #e7b68f 11.54%, rgba(255, 255, 255, 0));
+  	width: 1426px;
+  	height: 1015.6px;
+}
+.the-events-copia-de-agent-patrick-3-1 {
+  	position: absolute;
+  	top: 87px;
+  	left: 0px;
+  	width: 1428px;
+  	height: 1035px;
+  	object-fit: cover;
+}
+.the-events-the-events {
+  	position: absolute;
+  	top: 643px;
+  	left: calc(50% - 471px);
+  	font-size: 128px;
+  	letter-spacing: -2px;
+  	line-height: 24.82px;
+  	font-family: 'Bird Charms Script';
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 930px;
+  	height: 137px;
+}
+.the-events-inner {
+  	position: absolute;
+  	top: 70px;
+  	left: 75px;
+  	width: 1264px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px;
+  	box-sizing: border-box;
+  	font-size: 28px;
+  	color: #3e788e;
+}
+.home-parent {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 100px;
+}
+.home {
+  	align-self: stretch;
+  	width: 181px;
+  	position: relative;
+  	letter-spacing: 2px;
+  	line-height: 16px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.home-wrapper {
+  	width: 203px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 32px;
+}
+.the-events-home {
+  	height: 100px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px;
+  	box-sizing: border-box;
+  	gap: 16px;
+}
+.home-inner {
+  	align-self: stretch;
+  	height: 20px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.wrapper {
+  	height: 20px;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.div {
+  	align-self: stretch;
+  	width: 43px;
+  	position: relative;
+  	letter-spacing: 2px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.the-events2 {
+  	align-self: stretch;
+  	height: 32px;
+  	position: relative;
+  	font-size: 28px;
+  	letter-spacing: 2px;
+  	line-height: 16px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.home-child {
+  	align-self: stretch;
+  	height: 9px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.travel-plans {
+  	position: relative;
+  	letter-spacing: 2px;
+  	line-height: 16px;
+  	text-transform: uppercase;
+}
+.qa {
+  	align-self: stretch;
+  	width: 59px;
+  	position: relative;
+  	letter-spacing: 2px;
+  	line-height: 16px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.registry {
+  	align-self: stretch;
+  	width: 151px;
+  	position: relative;
+  	text-decoration: underline;
+  	letter-spacing: 2px;
+  	line-height: 16px;
+  	text-transform: uppercase;
+  	font-weight: 700;
+  	color: inherit;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.a-celebration-spanning {
+  	position: absolute;
+  	top: 817px;
+  	left: 164px;
+  	letter-spacing: 2px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	display: flex;
+  	text-align: left;
+  	align-items: center;
+  	width: 544px;
+  	height: 32px;
+}
+.multiple-days-in-container {
+  	position: absolute;
+  	top: 817px;
+  	left: 761px;
+  	letter-spacing: 2px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 32px;
+}
+.the-events-multiple-days-in-container {
+  	width: 100%;
+}
+.ibiza {
+  	color: #d55f37;
+}
+.chelsea-hiram-2-3 {
+  	position: absolute;
+  	top: 795px;
+  	left: 687px;
+  	width: 62px;
+  	height: 74px;
+  	object-fit: cover;
+}
+.travelplans-1-icon {
+  	position: absolute;
+  	top: 248px;
+  	left: calc(50% - 504px);
+  	width: 1007px;
+  	height: 383px;
+  	object-fit: cover;
+}
+.the-events-child {
+  	position: absolute;
+  	top: 1194px;
+  	left: 874px;
+  	width: 385px;
+  	height: 306px;
+  	object-fit: cover;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 869px;
+  	left: 134px;
+  	width: 1167px;
+  	height: 789px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 21px;
+  	font-size: 18px;
+  	color: #d55f37;
+  	font-family: Inter;
+}
+.frame-child {
+  	align-self: stretch;
+  	height: 306px;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	object-fit: cover;
+  	z-index: 0;
+}
+.saturday-sunday-may-23-24-parent {
+  	align-self: stretch;
+  	height: 225px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	z-index: 1;
+}
+.saturday-sunday {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 28px;
+  	text-transform: uppercase;
+  	font-weight: 500;
+}
+.optional-weekend-hangs {
+  	align-self: stretch;
+  	height: 65px;
+  	position: relative;
+  	font-size: 36px;
+  	letter-spacing: 1px;
+  	line-height: 35px;
+  	text-transform: uppercase;
+  	font-family: 'Inria Serif';
+  	color: #b9976f;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.were-putting-together-container {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 1px;
+  	line-height: 28px;
+  	font-size: 20px;
+  	color: #111;
+  	font-family: Jost;
+}
+.were-putting-together-a-few-a {
+  	margin: 0;
+}
+.were-putting-together {
+  	font-family: Jost;
+  	color: #111;
+}
+.b {
+  	font-family: 'Inria Serif';
+}
+.ibiza-hike-station {
+  	color: inherit;
+}
+.the-events-ibiza-hike-station {
+  	text-decoration: underline;
+}
+.approximately-3-hour {
+  	font-size: 15px;
+}
+.the-events-saturday-may-23 {
+  	font-family: 'Inria Serif';
+  	color: #d55f37;
+}
+.aperol-spritz-2-2 {
+  	width: 148.9px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 691px;
+  	left: 868px;
+  	max-height: 100%;
+  	object-fit: contain;
+  	z-index: 2;
+}
+.chelsea-hiram-6-5 {
+  	width: 114.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 603px;
+  	left: 207px;
+  	border-radius: 66px;
+  	max-height: 100%;
+  	object-fit: contain;
+  	z-index: 3;
+}
+.frame-item {
+  	width: 28.1px;
+  	height: 508.1px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 880.01px;
+  	left: 589.43px;
+  	object-fit: contain;
+  	z-index: 4;
+}
+.frame-inner {
+  	width: 28.2px;
+  	height: 557.3px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 1372.06px;
+  	left: 587.79px;
+  	object-fit: contain;
+  	z-index: 5;
+}
+.rectangle-icon {
+  	width: 27.2px;
+  	height: 69.1px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 1909px;
+  	left: 588.85px;
+  	object-fit: contain;
+  	z-index: 6;
+}
+.the-events-frame-child {
+  	width: 27.7px;
+  	height: 334.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 2036.81px;
+  	left: 588.27px;
+  	object-fit: contain;
+  	z-index: 7;
+}
+.frame-child2 {
+  	width: 28.1px;
+  	height: 508.1px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 2354.16px;
+  	left: 587.04px;
+  	object-fit: contain;
+  	z-index: 8;
+}
+.frame-child3 {
+  	width: 27.7px;
+  	height: 326.2px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 2845.21px;
+  	left: 586.64px;
+  	object-fit: contain;
+  	z-index: 9;
+}
+.aperol-spritz-2-1 {
+  	width: 140.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 1240px;
+  	left: 221.95px;
+  	max-height: 100%;
+  	object-fit: contain;
+  	z-index: 10;
+}
+.aperol-spritz-2-3 {
+  	width: 134px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 1241.04px;
+  	left: 84px;
+  	max-height: 100%;
+  	object-fit: contain;
+  	z-index: 11;
+}
+.sunday-may-24-2026-parent {
+  	width: 385px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 1481px;
+  	left: 30px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	z-index: 12;
+  	font-size: 20px;
+  	color: #111;
+  	font-family: Jost;
+}
+.the-events-sunday-may-24 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 18px;
+  	line-height: 28px;
+  	text-transform: uppercase;
+  	font-weight: 500;
+  	font-family: Inter;
+  	color: #d55f37;
+}
+.welcome-drinks {
+  	align-self: stretch;
+  	height: 65px;
+  	position: relative;
+  	font-size: 36px;
+  	letter-spacing: 1px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	font-family: 'Inria Serif';
+  	color: #b9976f;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.pm800-pm {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 1px;
+  	line-height: 28px;
+}
+.chelsea-hiram-2-6 {
+  	position: absolute;
+  	top: 1869.45px;
+  	left: 702.49px;
+  	width: 66.1px;
+  	height: 72px;
+  	object-fit: contain;
+}
+.chelsea-hiram-2-7 {
+  	position: absolute;
+  	top: 2575.47px;
+  	left: 699.29px;
+  	width: 66.1px;
+  	height: 72px;
+  	object-fit: contain;
+}
+.chelsea-hiram-2-8 {
+  	position: absolute;
+  	top: 3264px;
+  	left: 696px;
+  	width: 66.1px;
+  	height: 72px;
+  	object-fit: contain;
+}
+.monday-may-25-2026-parent {
+  	position: absolute;
+  	top: 2727px;
+  	left: 809px;
+  	width: 385px;
+  	height: 225px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	font-size: 20px;
+  	color: #111;
+  	font-family: Jost;
+}
+.wedding-day {
+  	align-self: stretch;
+  	height: 66px;
+  	position: relative;
+  	font-size: 36px;
+  	letter-spacing: 1px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	font-family: 'Inria Serif';
+  	color: #b9976f;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+}
+.group-div {
+  	position: absolute;
+  	top: 2543px;
+  	left: 917px;
+  	width: 170.3px;
+  	height: 138px;
+}
+.group-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 170.3px;
+  	height: 138px;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 170.3px;
+  	height: 138px;
+  	object-fit: cover;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: 3213px;
+  	left: 128px;
+  	width: 437px;
+  	height: 595px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	gap: 21px;
+  	font-size: 20px;
+  	color: #111;
+  	font-family: Jost;
+}
+.chelsea-hiram-6-3 {
+  	width: 244.6px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: -21px;
+  	left: 90px;
+  	max-height: 100%;
+  	object-fit: contain;
+  	z-index: 1;
+}
+.tuesday-may-26-2026-parent {
+  	width: 385px;
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 178.82px;
+  	left: 34px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+  	z-index: 2;
+}
+.the-events-item {
+  	position: absolute;
+  	top: 4075px;
+  	left: calc(50% - 245px);
+  	width: 450px;
+  	height: 27px;
+  	object-fit: cover;
+}
+.chelsea-hiram-2-5-parent {
+  	position: absolute;
+  	top: 4133px;
+  	left: 87px;
+  	width: 1252px;
+  	height: 216px;
+}
+.chelsea-hiram-2-5 {
+  	position: absolute;
+  	top: 166px;
+  	left: 583px;
+  	width: 46px;
+  	height: 50px;
+  	object-fit: cover;
+}
+.frame {
+  	position: absolute;
+  	top: 165px;
+  	left: calc(50% - 354px);
+  	letter-spacing: 2px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 242px;
+  	height: 47px;
+}
+.ibiza-spain {
+  	position: absolute;
+  	top: 165px;
+  	left: 698px;
+  	letter-spacing: 2px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 388px;
+  	height: 47px;
+}
+.c-h-container {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 626px);
+  	font-size: 128px;
+  	line-height: 24.82px;
+  	font-family: 'Bird Charms Script';
+  	display: flex;
+  	align-items: center;
+  	width: 1252px;
+  	height: 137px;
+}
+.c {
+  	letter-spacing: -31px;
+}
+.h {
+  	letter-spacing: -22px;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A - Chelsea & Hiram Wedding</title>
+    <link rel="stylesheet" href="qa.css">
+</head>
+<body>
+    <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="navigation">
+        <a href="index.html" class="nav-item">HOME</a>
+        <a href="events.html" class="nav-item">THE EVENTS</a>
+        <a href="travel-plans.html" class="nav-item">TRAVEL PLANS</a>
+        <a href="qa.html" class="nav-item active">Q&A</a>
+        <a href="https://www.travelersjoy.com/chelseaandhiram/" target="_blank" class="nav-item">REGISTRY</a>
+    </nav>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.navigation');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+
+    <header class="hero-section">
+        <div class="decorative-elements">
+            <div class="header-illustration">
+                <img src="./assets/TravelPlans-QA1.png" alt="Q&A Header" class="header-image">
+            </div>
+        </div>
+        <h1 class="main-title">Q&A</h1>
+        <div class="subtitle-container">
+            <div class="subtitle-text">
+                <b class="subtitle-part">YOU'VE GOT <span class="questions">QUESTIONS</span></b>
+            </div>
+            <img class="sun-divider" src="./assets/Chelsea & Hiram 2 3.png" alt="Decorative sun">
+            <div class="subtitle-text">
+                <b class="subtitle-part">WE'VE GOT <span class="answers">ANSWERS</span></b>
+            </div>
+        </div>
+    </header>
+
+    <main class="qa-content">
+        <section class="qa-section">
+            <h3 class="question">ARE KIDS ALLOWED?</h3>
+            <p class="answer">While Ibiza is kid-friendly, the wedding events are for adults only. We want to make sure you can relax and enjoy the festivities with us!</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">WHAT'S THE WEATHER LIKE?</h3>
+            <p class="answer">Late May in Ibiza is beautiful and feels like winter in Miami– the days are sunny with highs in the low 70s and a nice breeze. It's warm and comfortable without being too hot like peak summer weather. After the sun goes down (which isn't until 9pm btw!), it does get cooler outside with lows reaching the high 50s– perfect to throw on a light jacket.</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">WHAT'S THE DRESS CODE?</h3>
+            <p class="answer">
+                We have put together Pinterest boards for some inspiration and clarification. For the Welcome Drinks, it's <a href="https://pin.it/1n3HIGOho" target="_blank" class="answer-link"><b>Mediterranean Chic</b></a> with a more laidback, casual vibe for the rooftop. For the Wedding, it's <a href="https://pin.it/77EBOe3gv" target="_blank" class="answer-link"><b>Semi-Formal</b></a> – let's dress up nicely (we're a good looking group!), but this isn't an overly formal (or super casual) event. Be sure to check the weather - the events will take place outside, and it does get chilly once the sun goes down, so a shawl or jacket may be needed.
+            </p>
+            <p class="answer">Bright, fun colors and patterns encouraged!</p>
+            <p class="answer">Gents: For the wedding, blazer or sport coat preferred, tie is optional. No shorts or athleisure please.</p>
+            <p class="answer">Ladies: Block heels, wedges, or flats suggested for cobblestone streets and sandy beachfront. Midi or full-length dresses preferred at the wedding. Please, no fully sheer garments.</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">WHAT'S THE BEST WAY TO GET THERE?</h3>
+            <p class="answer">While unfortunately there are no direct flights to Ibiza (IBZ) from the states yet, the easiest airports to connect at with the best flight options are Madrid, Barcelona, or London. From the Ibiza airport, most hotels are about a 20-30 minute drive.</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">WHAT'S THE TRANSPORTATION SITUATION?</h3>
+            <p class="answer">We're providing roundtrip transportation to and from the Wedding on May 25 at Experimental Beach from 2 pickup points: OKU Hotel and Ibiza Old Town (for those staying at Montesol or The Standard). We'll share more details closer to it with pickup and drop off times. There is limited parking on site at the venue.</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">HOW LONG SHOULD WE STAY FOR?</h3>
+            <p class="answer">We are arriving on Friday May 22 and staying until Wednesday May 27. Feel free to come for whichever dates work best for you! Don't feel like you have to join for any/all of the optional hangs, it's a choose your own adventure kind of weekend, and we want you to explore the island however resonates best with you. We figure that most people will arrive late Saturday or Sunday midday and need time to decompress before the main festivities. The trip is doable as a long Memorial Day Weekend with a return on Tuesday. Or for those who want to make a bigger trip out of it, continue on to explore more of Spain before or after by booking roundtrip flights via Madrid or Barcelona.</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">HOW DO I RSVP?</h3>
+            <p class="answer">Please RSVP through the Paperless Post email invitation. Once you select Attending or Not Attending, you'll see additional events to RSVP each person in your party for and can let us know if you're interested in joining in some of the other group hangs we're organizing that weekend. Once we get a better idea of headcount and prices for those events, we'll reach out to those interested with the details and see if you want to confirm or not.</p>
+        </section>
+
+        <section class="qa-section">
+            <h3 class="question">WHAT IF I HAVE OTHER QUESTIONS?</h3>
+            <p class="answer">Email them to us at <a href="mailto:hola@chelseaandhiram.com" target="_blank" class="answer-link">hola@chelseaandhiram.com</a> and we'll answer anything else you need to know!</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-divider">
+            <img src="./assets/Rectangle 10.png" alt="Footer divider" class="footer-divider-dots">
+        </div>
+        <div class="footer-content">
+            <div class="footer-script-image">
+                <img src="./assets/C & H.png" alt="Decorative dots" class="footer-dots">
+            </div>
+            <div class="footer-script">
+                <span class="c-initial">C&</span><span class="h-initial">H</span>
+            </div>
+            <div class="footer-details">
+                <p class="date">05.25.26</p>
+                <p class="location">IBIZA, SPAIN</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Plans - Chelsea & Hiram Wedding</title>
+    <link rel="stylesheet" href="travel-plans.css">
+</head>
+<body>
+    <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="navigation">
+        <a href="index.html" class="nav-item">HOME</a>
+        <a href="events.html" class="nav-item">THE EVENTS</a>
+        <a href="travel-plans.html" class="nav-item active">TRAVEL PLANS</a>
+        <a href="qa.html" class="nav-item">Q&A</a>
+        <a href="https://www.travelersjoy.com/chelseaandhiram/" target="_blank" class="nav-item">REGISTRY</a>
+    </nav>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.navigation');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+
+    <header class="hero-section">
+        <div class="decorative-elements">
+            <div class="header-illustration">
+                <img src="./assets/TravelPlans-header.png" alt="Travel Plans Header" class="header-image">
+            </div>
+        </div>
+        <h1 class="main-title">Travel Plans</h1>
+        <div class="subtitle-container">
+            <div class="subtitle-text">
+                <b class="subtitle-part">WHERE TO STAY & PLAY</b>
+            </div>
+            <img class="sun-divider" src="./assets/Chelsea & Hiram 2 3.png" alt="Decorative sun">
+            <div class="subtitle-text">
+                <b class="subtitle-part">FOR THE BEST OF <span class="ibiza">IBIZA</span></b>
+            </div>
+        </div>
+    </header>
+
+    <main class="travel-content">
+        <section class="intro-section">
+            <p class="intro-text">We've curated a selection of hotel options that are nearby the weekend's events with discounted rates for our group. For more info on things to do, where to eat, & more, check out our full guide to Ibiza on the Next Vacay Substack!</p>
+            <div class="guide-button-wrapper">
+                <a href="https://open.substack.com/pub/nextvacay/p/full-guide-ibiza-spain?r=43wd49&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false" target="_blank" class="guide-button">Ibiza Guide</a>
+            </div>
+        </section>
+
+        <section class="hotel-section">
+            <div class="hotel-card">
+                <img src="./assets/oku.png" alt="OKU Ibiza" class="hotel-image">
+                <div class="hotel-details">
+                    <h2 class="hotel-name">OKU IBIZA</h2>
+                    <p class="hotel-address">
+                        <a href="https://maps.app.goo.gl/y3ShVDwKFjxZRQ5e9" target="_blank" class="address-link">
+                            Cami del Portixol, 2, 07820 Sant Antoni de Portmany, Illes Balears, Spain
+                        </a>
+                    </p>
+                    <p class="hotel-description">
+                        This is where we will be staying and serve as our home base for the weekend! It's a luxury lifestyle hotel that has all the resort amenities our group will need for a fun weekend. There are two large pool areas— one has DJs in the afternoon the other is quieter— and the Cala Gracio public beach is just a short walking trail from the resort. They also have a nice gym and wellness program of yoga classes and sound baths for early risers. We have secured a 15% discount applicable to any rate and any room type for our guests. Book directly on the OKU website with code <b>WEDDING2026</b>.
+                    </p>
+                    <div class="website-button-wrapper">
+                        <a href="https://www.okuhotels.com/oku-ibiza/" target="_blank" class="website-button">Website</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="./assets/montesol.png" alt="Montesol Experimental" class="hotel-image">
+                <div class="hotel-details">
+                    <h2 class="hotel-name">MONTESOL EXPERIMENTAL</h2>
+                    <p class="hotel-address">
+                        <a href="https://maps.app.goo.gl/y3ShVDwKFjxZRQ5e9" target="_blank" class="address-link">
+                            Passeig de Vara de Rey, 2, 07800 Eivissa, Illes Balears, Spain
+                        </a>
+                    </p>
+                    <p class="hotel-description">
+                        Located in Ibiza's Old Town, this art deco gem is reimagined with playful, design-forward interiors, a lively bar, restaurant, and an open-air rooftop. With only 33 rooms, designed by Dorothée Meilichzon, this is the epitome of a boutique stay with a local feel. This is where we will host the Welcome Drinks event on Sunday. They are extending a 10% discount off their flexible rates to our guests. Book directly on the website and use code <b>CHELHIRAM</b>.
+                    </p>
+                    <div class="website-button-wrapper">
+                        <a href="https://www.montesolexperimental.com/" target="_blank" class="website-button">Website</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="./assets/std.png" alt="The Standard Ibiza" class="hotel-image">
+                <div class="hotel-details">
+                    <h2 class="hotel-name">THE STANDARD IBIZA</h2>
+                    <p class="hotel-address">
+                        <a href="https://maps.app.goo.gl/y3ShVDwKFjxZRQ5e9" target="_blank" class="address-link">
+                            Carrer de Bartomeu Vicent Ramon, 9, 07800 Eivissa, Illes Balears, Spain
+                        </a>
+                    </p>
+                    <p class="hotel-description">
+                        Set right in the heart of Ibiza Town, The Standard offers minimalist rooms with a buzzing rooftop pool and bar. The ground floor cocktail bar and restaurant has a sexy design that makes for a great start to any night. It's a perfect hotel for those who want to stay where there's always a vibe. We have secured a very competitive rate of 380 Euros per night including breakfast, for a limited number of rooms over the dates of May 23 - 26, 2026. To book, email Ayelen.Priore@standardhotels.com and reference the wedding of Chelsea & Hiram. Conditions: they will charge the first night upfront, and the rest can be paid on arrival. The first night will not be refundable if the reservation is cancelled.
+                    </p>
+                    <div class="website-button-wrapper">
+                        <a href="https://www.standardhotels.com/ibiza" target="_blank" class="website-button">Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-divider">
+            <img src="./assets/Rectangle 10.png" alt="Footer divider" class="footer-divider-dots">
+        </div>
+        <div class="footer-content">
+            <div class="footer-script-image">
+                <img src="./assets/C & H.png" alt="Decorative dots" class="footer-dots">
+            </div>
+            <div class="footer-script">
+                <span class="c-initial">C&</span><span class="h-initial">H</span>
+            </div>
+            <div class="footer-details">
+                <p class="date">05.25.26</p>
+                <p class="location">IBIZA, SPAIN</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
