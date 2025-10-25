@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
-    background-image: url('assets/background-texture.png');
+    background-image: url('assets/Header Bckgr1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -780,13 +780,13 @@ body {
 /* Homepage Styles */
 .home-hero {
     text-align: center;
-    padding: 60px 20px 80px;
+    padding: 20px 20px 80px;
 }
 
 .hero-header-image {
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
     display: flex;
     justify-content: center;
 }
@@ -798,13 +798,21 @@ body {
     object-fit: contain;
 }
 
+/* Desktop only - reduce header image by 20% */
+@media screen and (min-width: 769px) {
+    .header-img {
+        width: 60%;
+        max-width: 60%;
+    }
+}
+
 .hero-names {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .couple-names {
     font-family: 'BirdCharms', cursive;
-    font-size: 96px;
+    font-size: 80px;
     color: #2897b7;
     font-weight: normal;
     line-height: 1;
@@ -912,7 +920,7 @@ body {
 .photo-left,
 .photo-right {
     flex: 1;
-    max-width: 300px;
+    max-width: 504px;
 }
 
 .couple-photo {
@@ -965,16 +973,35 @@ body {
 
 /* Update Photo Divider for Image */
 .photo-divider-img {
-    height: 400px;
+    height: 280px;
     width: auto;
     object-fit: contain;
 }
 
+.photo-divider-horizontal {
+    display: none;
+}
+
+.photo-divider-vertical {
+    display: block;
+}
+
 @media screen and (max-width: 768px) {
-    .photo-divider-img {
+    .photo-divider-vertical {
+        display: none;
+    }
+
+    .photo-divider-horizontal {
+        display: block;
         height: auto;
         width: 80%;
-        max-width: 200px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .photo-divider {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -990,6 +1017,7 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #b9976f;
+    margin-top: 60px;
     margin-bottom: 10px;
     font-weight: 400;
 }
@@ -1033,6 +1061,14 @@ body {
     object-fit: contain;
 }
 
+.proposal-divider-horizontal {
+    display: none;
+}
+
+.proposal-divider-vertical {
+    display: block;
+}
+
 /* Responsive for Proposal Section */
 @media screen and (max-width: 768px) {
     .proposal-photos {
@@ -1044,10 +1080,21 @@ body {
         max-width: 100%;
     }
 
-    .proposal-divider-img {
+    .proposal-divider-vertical {
+        display: none;
+    }
+
+    .proposal-divider-horizontal {
+        display: block;
         height: auto;
         width: 80%;
-        max-width: 200px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .proposal-separator {
+        display: flex;
+        justify-content: center;
     }
 
     .proposal-title {
@@ -1142,5 +1189,76 @@ body {
     .story-paragraph {
         font-size: 14px;
         line-height: 24px;
+    }
+}
+
+/* Proposal Text Section */
+.proposal-text {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.proposal-paragraph {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #111111;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.proposal-paragraph strong {
+    font-weight: 600;
+    color: #111111;
+}
+
+/* Responsive for Proposal Text */
+@media screen and (max-width: 768px) {
+    .proposal-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .proposal-text {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proposal-paragraph {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* Question highlight color */
+.question-highlight {
+    color: #D55F37;
+}
+
+/* Final Proposal Image */
+.proposal-final-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.final-pic {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .proposal-final-image {
+        margin-top: 30px;
+    }
+
+    .final-pic {
+        max-width: 100%;
     }
 }
