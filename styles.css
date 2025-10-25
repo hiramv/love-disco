@@ -134,12 +134,12 @@ body {
 
 .subtitle-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin: -70px auto 0;
+    gap: 30px;
+    margin: 0 auto;
     padding: 0 50px;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 .subtitle-text {
@@ -158,11 +158,27 @@ body {
     text-align: center;
 }
 
+.subtitle-part {
+    font-family: 'Inria Serif', serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #b9976f;
+    text-align: center;
+}
+
 .ibiza {
     color: #d55f37;
 }
 
 .chelsea-hiram-2-3 {
+    width: 62px;
+    height: 74px;
+    object-fit: cover;
+}
+
+.sun-divider {
     width: 62px;
     height: 74px;
     object-fit: cover;
