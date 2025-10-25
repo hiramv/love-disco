@@ -751,9 +751,17 @@ body {
         font-size: 60px;
     }
 
+    .c-initial {
+        letter-spacing: -10px;
+    }
+
+    .h-initial {
+        letter-spacing: 10px;
+    }
+
     .footer-details {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 20px;
     }
 
     .footer-details .date,
@@ -767,9 +775,17 @@ body {
         font-size: 60px;
     }
 
+    .c-initial {
+        letter-spacing: -10px;
+    }
+
+    .h-initial {
+        letter-spacing: 10px;
+    }
+
     .footer-details {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 20px;
     }
 
     .footer-details .date,
