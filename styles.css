@@ -777,3 +777,370 @@ body {
         font-size: 24px;
     }
 }
+/* Homepage Styles */
+.home-hero {
+    text-align: center;
+    padding: 60px 20px 80px;
+}
+
+.hero-header-image {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-names {
+    margin-bottom: 30px;
+}
+
+.couple-names {
+    font-family: 'BirdCharms', cursive;
+    font-size: 96px;
+    color: #2897b7;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.hero-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.wedding-date,
+.wedding-location {
+    font-family: 'Inria Serif', serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #b9976f;
+    margin: 0;
+}
+
+.date-divider {
+    width: 50px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.home-photos {
+    margin-bottom: 80px;
+}
+
+.story-title {
+    font-family: 'BirdCharms', cursive;
+    font-size: 72px;
+    color: #2897b7;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+/* Responsive for Homepage */
+@media screen and (max-width: 768px) {
+    .couple-names {
+        font-size: 56px;
+    }
+
+    .wedding-date,
+    .wedding-location {
+        font-size: 20px;
+    }
+
+    .date-divider {
+        width: 35px;
+        height: 42px;
+    }
+
+    .story-title {
+        font-size: 48px;
+    }
+
+    .home-content {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .couple-names {
+        font-size: 42px;
+    }
+
+    .wedding-date,
+    .wedding-location {
+        font-size: 16px;
+    }
+
+    .hero-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .story-title {
+        font-size: 36px;
+    }
+}
+
+/* Couple Photos Section */
+.couple-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px auto;
+    max-width: 1000px;
+}
+
+.photo-left,
+.photo-right {
+    flex: 1;
+    max-width: 300px;
+}
+
+.couple-photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.photo-divider {
+    flex-shrink: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    padding: 20px 0;
+}
+
+.photo-text {
+    font-family: 'Inria Serif', serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #b9976f;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Responsive for Couple Photos */
+@media screen and (max-width: 768px) {
+    .couple-photos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .photo-divider {
+        writing-mode: horizontal-tb;
+        transform: none;
+        padding: 20px 0;
+    }
+
+    .photo-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .photo-left,
+    .photo-right {
+        max-width: 100%;
+    }
+}
+
+/* Update Photo Divider for Image */
+.photo-divider-img {
+    height: 400px;
+    width: auto;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .photo-divider-img {
+        height: auto;
+        width: 80%;
+        max-width: 200px;
+    }
+}
+
+/* Proposal Section */
+.proposal-story {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.proposal-title {
+    font-family: 'Inria Serif', serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #b9976f;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.proposal-subtitle {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #8b6f47;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.proposal-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.proposal-photo-item {
+    flex: 1;
+    max-width: 300px;
+}
+
+.proposal-photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.proposal-separator {
+    flex-shrink: 0;
+}
+
+.proposal-divider-img {
+    height: 350px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Responsive for Proposal Section */
+@media screen and (max-width: 768px) {
+    .proposal-photos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .proposal-photo-item {
+        max-width: 100%;
+    }
+
+    .proposal-divider-img {
+        height: auto;
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .proposal-title {
+        font-size: 24px;
+    }
+
+    .proposal-subtitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .proposal-title {
+        font-size: 20px;
+    }
+}
+
+/* Our Story Section */
+.our-story {
+    margin-bottom: 80px;
+}
+
+.story-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.story-subtitle {
+    font-family: 'Inria Serif', serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #b9976f;
+    font-weight: 400;
+}
+
+.with-a-swipe {
+    color: #d55f37;
+}
+
+.story-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.story-paragraph {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #111111;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.story-paragraph strong {
+    font-weight: 600;
+    color: #111111;
+}
+
+.story-heart {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive for Our Story Section */
+@media screen and (max-width: 768px) {
+    .story-subtitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .story-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .story-content {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .story-subtitle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .story-paragraph {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
