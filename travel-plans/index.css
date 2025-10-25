@@ -407,8 +407,13 @@ body {
         border-bottom: 1px solid rgba(62, 120, 142, 0.1);
     }
 
+    .hero-section {
+        padding: 80px 20px 40px;
+    }
+
     .decorative-elements {
         height: 250px;
+        margin-bottom: 30px;
     }
 
     .header-image {
@@ -417,11 +422,11 @@ body {
 
     .main-title {
         font-size: 72px;
+        margin-bottom: 30px;
     }
 
     .subtitle-container {
-        flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         padding: 0 20px;
     }
 
@@ -430,8 +435,8 @@ body {
     }
 
     .sun-divider {
-        width: 40px;
-        height: 48px;
+        width: 35px;
+        height: 42px;
     }
 
     .travel-content {
@@ -481,8 +486,17 @@ body {
         font-size: 56px;
     }
 
+    .subtitle-container {
+        gap: 10px;
+    }
+
     .subtitle-part {
         font-size: 14px;
+    }
+
+    .sun-divider {
+        width: 30px;
+        height: 36px;
     }
 
     .hotel-name {

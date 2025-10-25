@@ -322,21 +322,27 @@ body {
         border-bottom: 1px solid rgba(62, 120, 142, 0.1);
     }
 
+    .hero-section {
+        padding: 80px 20px 40px;
+    }
+
     .decorative-elements {
-        height: 312px;
+        height: 250px;
+        margin-bottom: 30px;
     }
 
     .header-image {
-        height: 312px;
+        height: 250px;
     }
 
     .main-title {
         font-size: 72px;
         margin-top: 0;
+        margin-bottom: 30px;
     }
 
     .subtitle-container {
-        display: none;
+        gap: 15px;
     }
 
     .subtitle-part {
@@ -344,8 +350,8 @@ body {
     }
 
     .sun-divider {
-        width: 40px;
-        height: 48px;
+        width: 35px;
+        height: 42px;
     }
 
     .qa-content {
@@ -382,8 +388,17 @@ body {
         font-size: 56px;
     }
 
+    .subtitle-container {
+        gap: 10px;
+    }
+
     .subtitle-part {
         font-size: 14px;
+    }
+
+    .sun-divider {
+        width: 30px;
+        height: 36px;
     }
 
     .question {
