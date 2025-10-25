@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'BirdCharms';
-    src: url('assets/BirdCharmsScript-Regular.otf') format('opentype');
+    src: url('../assets/BirdCharmsScript-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
-    background-image: url('assets/Header Bckgr1.png');
+    background-image: url('../assets/Header Bckgr1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
