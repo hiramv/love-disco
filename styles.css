@@ -880,6 +880,18 @@ body {
 
 /* Responsive for Homepage */
 @media screen and (max-width: 768px) {
+    .home-hero {
+        padding: 80px 20px 60px;
+    }
+
+    .hero-header-image {
+        margin-bottom: 30px;
+    }
+
+    .hero-names {
+        margin-bottom: 30px;
+    }
+
     .couple-names {
         font-size: 56px;
     }
