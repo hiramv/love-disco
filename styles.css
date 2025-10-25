@@ -881,7 +881,7 @@ body {
 /* Responsive for Homepage */
 @media screen and (max-width: 768px) {
     .home-hero {
-        padding: 80px 20px 60px;
+        padding: 80px 20px 40px;
     }
 
     .hero-header-image {
@@ -890,6 +890,10 @@ body {
 
     .hero-names {
         margin-bottom: 30px;
+    }
+
+    .hero-details {
+        gap: 15px;
     }
 
     .couple-names {
@@ -911,7 +915,7 @@ body {
     }
 
     .home-content {
-        padding: 40px 20px;
+        padding: 20px 20px 40px;
     }
 }
 
@@ -926,8 +930,12 @@ body {
     }
 
     .hero-details {
-        flex-direction: column;
-        gap: 15px;
+        gap: 10px;
+    }
+
+    .date-divider {
+        width: 30px;
+        height: 36px;
     }
 
     .story-title {
