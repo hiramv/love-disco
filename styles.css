@@ -561,7 +561,7 @@ body {
 
 .footer-script {
     font-family: 'BirdCharms', cursive;
-    font-size: 128px;
+    font-size: 96px;
     color: #b9976f;
     line-height: 1;
     margin: -20px 0;
@@ -586,7 +586,7 @@ body {
 .footer-details .date,
 .footer-details .location {
     font-family: 'Inria Serif', serif;
-    font-size: 36px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #b9976f;
@@ -748,7 +748,7 @@ body {
     }
 
     .footer-script {
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .footer-details {
@@ -758,13 +758,13 @@ body {
 
     .footer-details .date,
     .footer-details .location {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 768px) {
     .footer-script {
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .footer-details {
@@ -774,7 +774,7 @@ body {
 
     .footer-details .date,
     .footer-details .location {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 /* Homepage Styles */
