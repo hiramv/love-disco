@@ -568,11 +568,11 @@ body {
 }
 
 .c-initial {
-    letter-spacing: -20px;
+    letter-spacing: -10px;
 }
 
 .h-initial {
-    letter-spacing: 0;
+    letter-spacing: 10px;
 }
 
 .footer-details {
