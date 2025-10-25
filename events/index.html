@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Events - Chelsea & Hiram Wedding</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="navigation">
+        <a href="../" class="nav-item">HOME</a>
+        <a href="../events/" class="nav-item active">THE EVENTS</a>
+        <a href="../travel-plans/" class="nav-item">TRAVEL PLANS</a>
+        <a href="../qa/" class="nav-item">Q&A</a>
+        <a href="https://www.travelersjoy.com/chelseaandhiram/" target="_blank" class="nav-item">REGISTRY</a>
+    </nav>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.navigation');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+
+    <header class="hero-section">
+        <div class="decorative-elements">
+            <div class="header-illustration">
+                <img src="../assets/TravelPlans 1.png" alt="Wedding celebration elements" class="header-image">
+            </div>
+        </div>
+        <h1 class="main-title">The Events</h1>
+        <div class="subtitle-container">
+            <div class="subtitle-text">
+                <b class="subtitle-part">A LOVE CELEBRATION</b>
+            </div>
+            <img class="sun-divider" src="../assets/Chelsea & Hiram 2 3.png" alt="Decorative sun">
+            <div class="subtitle-text">
+                <b class="subtitle-part">IN THE <span class="ibiza">BALEARIC ISLANDS</span></b>
+            </div>
+        </div>
+    </header>
+
+    <main class="events-timeline">
+        <section class="optional-events">
+            <h2>SATURDAY & SUNDAY, MAY 23-24, 2026</h2>
+            <h3>OPTIONAL WEEKEND EVENTS</h3>
+            <p class="description">
+                We're putting together a few additional group events during the weekend for those who arrive a couple days early, but it
+                will still rather explore the island at your own pace then by all means! Each add-on group event will depend on the group size, but let us 
+                know which of these (if any) you're interested in joining when you RSVP, and we'll share more details on pricing etc to see
+                if you want to join this weekend!
+            </p>
+
+            <div class="weekend-events-container">
+                <div class="side-image left-image">
+                    <img src="../assets/Chelsea & Hiram 6 5.png" alt="Beach icon" class="side-img">
+                </div>
+                
+                <div class="weekend-events-list">
+                    <div class="weekend-event">
+                        <h4 class="event-date">Saturday May 23, 2026:</h4>
+                        <p class="event-description">Morning Group Hike with <a href="https://ibizahikestation.com/" class="event-link">Ibiza Hike Station</a></p>
+                        <p class="event-note">(approximately 3 hour excursion)</p>
+                    </div>
+
+                    <div class="weekend-event">
+                        <h4 class="event-date">Saturday May 23, 2026:</h4>
+                        <p class="event-description">Beach Club Lunch at <a href="https://besobeach.com/ibiza/" class="event-link">Beso Beach</a></p>
+                        <p class="event-note">(it's all about balance)</p>
+                    </div>
+
+                    <div class="weekend-event">
+                        <h4 class="event-date">Sunday May 24, 2026:</h4>
+                        <p class="event-description">Cala Gracio beach hang + laidback lunch at <a href="https://gracioibiza.com/" class="event-link">Pomelo Playa</a></p>
+                        <p class="event-note">(walking distance from OKU hotel)</p>
+                    </div>
+                </div>
+
+                <div class="side-image right-image">
+                    <img src="../assets/Aperol Spritz 2 1.png" alt="Drinks" class="side-img">
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider">
+            <img src="../assets/Rectangle 10.png" alt="Section divider" class="divider-dots">
+        </div>
+
+        <section class="main-events">
+            <div class="timeline-line">
+                <img src="../assets/timeline.png" alt="Timeline decoration" class="timeline-dots">
+            </div>
+
+            <div class="event-main welcome-drinks">
+                <div class="event-icon">
+                    <img src="../assets/Aperol Spritz 2 2.png" alt="Welcome drinks" class="icon-img">
+                </div>
+                <div class="event-details">
+                    <h3>SUNDAY, MAY 24, 2026</h3>
+                    <h2>WELCOME DRINKS</h2>
+                    <p class="event-time">6:00 PM–8:00 PM</p>
+                    <p class="description">
+                        Let us officially welcome you to Ibiza
+                        with the best views of Cala Vida, drinks
+                        and some light appetizers to share!
+                    </p>
+                    <div class="location-details">
+                        <p>Atico, Mediterranean Club</p>
+                        <p>Location: Montesel Rooftop</p>
+                        <p>2 Passieg de Vara de Rey, Eivissa, IB,</p>
+                        <p>07800, Spain</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-main wedding-day">
+                <div class="event-icon">
+                    <img src="../assets/Group 17.png" alt="Wedding rings" class="icon-img">
+                </div>
+                <div class="event-details">
+                    <h3>MONDAY, MAY 25, 2026</h3>
+                    <h2>WEDDING DAY</h2>
+                    <p class="event-time">3:00 PM–2:00 AM</p>
+                    <p class="description">
+                        Join us for a heartfelt ceremony as we
+                        tie the knot, followed by cocktails with
+                        amazing sunset views as we dance the
+                        night away.
+                    </p>
+                    <div class="location-details">
+                        <p>Atico, Semi-Formal</p>
+                        <p>Location: Experimental Beach</p>
+                        <p>Carretera Cala Gracio km 1, PM-812</p>
+                        <p>Ibiza, Spain</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-main recovery">
+                <div class="event-icon">
+                    <img src="../assets/Aperol Spritz 2 3.png" alt="Recovery" class="icon-img">
+                </div>
+                <div class="event-details">
+                    <h3>TUESDAY, MAY 26, 2026</h3>
+                    <h2>RECOVERY</h2>
+                    <p class="event-time">1:00 PM → whenever</p>
+                    <p class="description">
+                        We'll be having a relaxing hangover by
+                        the pool for those who want to join and
+                        swap stories from the night.
+                    </p>
+                    <div class="location-details">
+                        <p>Location: OKU Ibiza</p>
+                        <p>Cam de Portmany, 2, 07820 Sant Antoni</p>
+                        <p>de Portmany, Spain</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-divider">
+            <img src="../assets/Rectangle 10.png" alt="Footer divider" class="footer-divider-dots">
+        </div>
+        <div class="footer-content">
+            <div class="footer-script-image">
+                <img src="../assets/C & H.png" alt="Decorative dots" class="footer-dots">
+            </div>
+            <div class="footer-script">
+                <span class="c-initial">C&</span><span class="h-initial">H</span>
+            </div>
+            <div class="footer-details">
+                <p class="date">05.25.26</p>
+                <p class="location">IBIZA, SPAIN</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
