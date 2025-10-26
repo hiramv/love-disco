@@ -1309,6 +1309,8 @@ body {
 /* Final Proposal Image */
 .proposal-final-image {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 40px;
     width: 100%;
