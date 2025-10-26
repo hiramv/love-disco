@@ -899,7 +899,6 @@ body {
 @media screen and (max-width: 768px) {
     .home-hero {
         padding: 80px 20px 40px;
-        background-color: rgba(186, 216, 229, 0.35);
     }
 
     .hero-header-image {
