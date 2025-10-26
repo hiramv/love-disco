@@ -499,6 +499,9 @@ body {
     font-size: 18px;
     color: #111111;
     margin-bottom: 2px;
+}
+
+.location-details p:first-child {
     text-decoration: underline;
 }
 
