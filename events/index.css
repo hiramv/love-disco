@@ -413,12 +413,12 @@ body {
     text-align: center;
 }
 
-.welcome-drinks .event-icon {
+.event-main.welcome-drinks .event-icon {
     width: 180px;
     height: 180px;
 }
 
-.welcome-drinks .icon-img {
+.event-main.welcome-drinks .icon-img {
     width: 180px;
 }
 
@@ -430,12 +430,12 @@ body {
     text-align: center;
 }
 
-.recovery .event-icon {
+.event-main.recovery .event-icon {
     width: 180px;
     height: 180px;
 }
 
-.recovery .icon-img {
+.event-main.recovery .icon-img {
     width: 180px;
 }
 
