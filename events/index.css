@@ -695,11 +695,26 @@ body {
     }
 
     .subtitle-container {
-        gap: 15px;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .subtitle-text {
+        width: 100%;
+        text-align: center;
     }
 
     .subtitle-part {
         font-size: 16px;
+    }
+
+    .sun-divider {
+        width: 35px;
+        height: 42px;
+        order: 3;
+        margin-top: 15px;
     }
     
     .event-main .event-details {
