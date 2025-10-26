@@ -888,6 +888,11 @@ body {
         margin-bottom: 30px;
     }
 
+    .header-img {
+        width: 115%;
+        max-width: 115%;
+    }
+
     .hero-names {
         margin-bottom: 30px;
     }
