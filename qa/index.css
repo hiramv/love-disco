@@ -401,13 +401,13 @@ body {
     }
 
     .footer-details {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 20px;
     }
 
     .footer-details .date,
     .footer-details .location {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 
