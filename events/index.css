@@ -501,7 +501,8 @@ body {
     margin-bottom: 2px;
 }
 
-.location-details p:first-child {
+.location-details p:first-child,
+.location-details p:nth-child(2) {
     text-decoration: underline;
 }
 
