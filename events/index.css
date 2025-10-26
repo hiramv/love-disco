@@ -482,7 +482,7 @@ body {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     line-height: 1.7;
-    color: #8b6f47;
+    color: #111111;
     margin-bottom: 20px;
     max-width: 280px;
 }
@@ -490,13 +490,14 @@ body {
 .location-details {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
-    color: #a0845a;
+    color: #111111;
     line-height: 1.6;
 }
 
 .location-details p {
     font-family: 'Jost', sans-serif;
     font-size: 18px;
+    color: #111111;
     margin-bottom: 2px;
 }
 
