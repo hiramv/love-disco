@@ -479,7 +479,8 @@ body {
 }
 
 .event-main .description {
-    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
     line-height: 1.7;
     color: #8b6f47;
     margin-bottom: 20px;
@@ -487,12 +488,15 @@ body {
 }
 
 .location-details {
-    font-size: 11px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
     color: #a0845a;
     line-height: 1.6;
 }
 
 .location-details p {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
     margin-bottom: 2px;
 }
 
