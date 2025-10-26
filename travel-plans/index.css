@@ -498,6 +498,14 @@ body {
         letter-spacing: -10px;
     }
 
+    .c-initial {
+        letter-spacing: -10px;
+    }
+
+    .h-initial {
+        letter-spacing: 10px;
+    }
+
     .footer-details {
         flex-direction: row;
         gap: 20px;
