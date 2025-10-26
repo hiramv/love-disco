@@ -180,9 +180,9 @@ body {
 }
 
 .sun-divider {
-    width: 70px;
-    height: 74px;
-    object-fit: cover;
+    width: 50px;
+    height: 60px;
+    object-fit: contain;
 }
 
 /* Q&A Content */
