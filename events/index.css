@@ -455,9 +455,10 @@ body {
 }
 
 .event-main h3 {
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     letter-spacing: 1.2px;
-    color: #8b6f47;
+    color: #D55F37;
     margin-bottom: 8px;
     font-weight: 500;
 }
