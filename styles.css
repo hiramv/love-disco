@@ -700,16 +700,16 @@ body {
     .decorative-elements {
         height: 200px;
     }
-    
+
     .header-image {
         height: 200px;
         width: auto;
     }
-    
+
     .main-title {
         font-size: 36px;
     }
-    
+
     .subtitle-container {
         display: flex;
         flex-direction: column;
@@ -718,7 +718,7 @@ body {
         height: auto;
         margin-top: 20px;
     }
-    
+
     .a-celebration-spanning {
         position: static;
         width: auto;
@@ -726,7 +726,7 @@ body {
         font-size: 24px;
         text-align: center;
     }
-    
+
     .multiple-days-in-container {
         position: static;
         width: auto;
@@ -734,38 +734,38 @@ body {
         font-size: 24px;
         text-align: center;
     }
-    
+
     .chelsea-hiram-2-3 {
         position: static;
         width: 45px;
         height: 54px;
     }
-    
+
     .weekend-events-container {
         flex-direction: column;
         align-items: center;
         gap: 0;
         padding: 20px;
     }
-    
+
     .side-image {
         display: none;
     }
-    
+
     .weekend-events-list {
         max-width: 100%;
     }
-    
+
     .description {
         font-size: 13px;
     }
-    
+
     .event-main h2 {
         font-size: 18px;
     }
 
     .footer-script {
-        font-size: 60px;
+        font-size: 48px;
     }
 
     .c-initial {
@@ -789,7 +789,7 @@ body {
 
 @media (max-width: 768px) {
     .footer-script {
-        font-size: 60px;
+        font-size: 48px;
     }
 
     .c-initial {
