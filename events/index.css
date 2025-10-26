@@ -506,6 +506,10 @@ body {
     text-decoration: underline;
 }
 
+.recovery .location-details p:nth-child(2) {
+    text-decoration: none;
+}
+
 /* Timeline Connector */
 .timeline-connector {
     width: 100%;
