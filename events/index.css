@@ -410,7 +410,7 @@ body {
 
 .welcome-drinks {
     justify-content: flex-end;
-    text-align: right;
+    text-align: center;
 }
 
 .welcome-drinks .event-details {
@@ -419,7 +419,7 @@ body {
 
 .wedding-day {
     justify-content: flex-start;
-    text-align: left;
+    text-align: center;
 }
 
 .wedding-day .event-details {
@@ -428,7 +428,7 @@ body {
 
 .recovery {
     justify-content: flex-end;
-    text-align: right;
+    text-align: center;
 }
 
 .recovery .event-details {
