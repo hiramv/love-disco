@@ -414,7 +414,7 @@ body {
 }
 
 .welcome-drinks .event-details {
-    margin-right: 56px;
+    margin-right: 200px;
 }
 
 .wedding-day {
@@ -423,7 +423,7 @@ body {
 }
 
 .wedding-day .event-details {
-    margin-left: 56px;
+    margin-left: 200px;
 }
 
 .recovery {
@@ -432,7 +432,7 @@ body {
 }
 
 .recovery .event-details {
-    margin-right: 56px;
+    margin-right: 200px;
 }
 
 .event-main .event-icon {
