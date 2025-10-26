@@ -499,6 +499,7 @@ body {
     font-size: 18px;
     color: #111111;
     margin-bottom: 2px;
+    text-decoration: underline;
 }
 
 /* Timeline Connector */
