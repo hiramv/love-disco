@@ -464,8 +464,9 @@ body {
 }
 
 .event-main h2 {
+    font-family: 'Inria Serif', serif;
     font-size: 22px;
-    color: #8b6f47;
+    color: #B9976F;
     margin-bottom: 15px;
     font-weight: 600;
     letter-spacing: 0.5px;
