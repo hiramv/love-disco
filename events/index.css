@@ -423,18 +423,16 @@ body {
 
 .event-main .event-icon {
     position: static;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f4e8dc;
-    border-radius: 50%;
     margin: 0 auto 20px auto;
 }
 
 .event-main .icon-img {
-    width: 60px;
+    width: 120px;
     height: auto;
 }
 
