@@ -139,6 +139,7 @@ body {
     font-family: 'BirdCharms', cursive;
     font-size: 80px;
     color: #2897B7;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-weight: normal;
     line-height: 1;
@@ -149,7 +150,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     padding: 0 50px;
     flex-wrap: wrap;
 }
