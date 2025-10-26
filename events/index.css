@@ -472,8 +472,9 @@ body {
 }
 
 .event-main .event-time {
+    font-family: 'Jost', sans-serif;
     font-size: 14px;
-    color: #a0845a;
+    color: #111111;
     margin-bottom: 15px;
     font-weight: 500;
 }
