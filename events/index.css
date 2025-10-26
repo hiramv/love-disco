@@ -413,12 +413,30 @@ body {
     text-align: center;
 }
 
+.welcome-drinks .event-icon {
+    width: 180px;
+    height: 180px;
+}
+
+.welcome-drinks .icon-img {
+    width: 180px;
+}
+
 .wedding-day {
     text-align: center;
 }
 
 .recovery {
     text-align: center;
+}
+
+.recovery .event-icon {
+    width: 180px;
+    height: 180px;
+}
+
+.recovery .icon-img {
+    width: 180px;
 }
 
 .event-main .event-icon {
