@@ -694,19 +694,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .decorative-elements {
-        height: 200px;
-    }
-
-    .header-image {
-        height: 200px;
-        width: auto;
-    }
-
-    .main-title {
-        font-size: 36px;
-    }
-
     .subtitle-container {
         gap: 10px;
     }
