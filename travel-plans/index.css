@@ -418,6 +418,12 @@ body {
         border-bottom: 1px solid rgba(62, 120, 142, 0.1);
     }
 
+    .nav-item.active::before {
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+
     .hero-section {
         padding: 80px 20px 40px;
     }
